@@ -59,7 +59,7 @@ nav a:hover{
 nav a:focus{
 	background-color: #005f5f;
 }
-
+/* need to fix through js coding. Inactive in current design*/
 nav a.active{
 	background-color: #aaa;
     color: #444;
@@ -95,6 +95,7 @@ nav li ul li {
 	margin: 0;
 }
 
+/*main section styling*/
 
 /*the left and right blockinsg of the body section of the page*/
 
@@ -105,10 +106,11 @@ nav li ul li {
 	margin: 0 2%;
 	vertical-align: top;
 
-}
+
 
 .left h1{
 	text-align: left;
+
 	font-family: 
 }
 
