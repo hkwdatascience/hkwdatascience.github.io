@@ -100,23 +100,12 @@ nav li ul li {
 
 /*the left and right blockinsg of the body section of the page*/
 
-.left{
-	display: inline-block;
-	width: 25%;
-	height: 100vh;
-	margin: 0 2%;
-	vertical-align: top;
-}
-
-
-.left h1{
-	text-align: left;
-	font-family: 
-}
-
-.left li{
-	text-align: left;
-	font-family: 'Times New Roman', Times, serif;
+.left_nav{
+    position: fixed;
+    height: 60%;
+    width: 20%;
+    background-color: rgb(121 170 220);
+    text-align: center;
 }
 
 .right{
