@@ -11,16 +11,14 @@ header {
 	font-family: sans-serif ;
 	text-align: center;
 	text-transform: capitalize;
-
+	font-size: medium;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 }
 
 header h1{
-	background-color: ;
-	color: rgb(0, 0, 0);
-}
 
-header h2{
-	font-size: medium;
+	color: rgb(0, 0, 0);
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 }
 
 
@@ -30,6 +28,7 @@ nav ul{
 	text-align: center;
 
 }
+
 
 /* main navigation blocks styling */
 nav li{
@@ -60,7 +59,7 @@ nav a:hover{
 nav a:focus{
 	background-color: #005f5f;
 }
-/* need to fix through js coding. Inactive in current design*/
+
 nav a.active{
 	background-color: #aaa;
     color: #444;
@@ -95,6 +94,7 @@ nav li ul li {
 	padding: 0;
 	margin: 0;
 }
+
 
 /*main section styling*/
 

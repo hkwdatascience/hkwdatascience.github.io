@@ -2,24 +2,27 @@
 body{
 	background: rgb(255, 255, 255);
 	margin: 1%;
+	
 }
 
 
 header {
 	height: 15%;
-	font-family: sans-serif ;
 	text-align: center;
 	text-transform: capitalize;
-
+	font-size: medium;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 }
 
 header h1{
 	background-color: ;
 	color: rgb(0, 0, 0);
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 }
 
 header h2{
 	font-size: medium;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 }
 
 
@@ -38,6 +41,7 @@ nav li{
 	text-transform: capitalize;
 	padding: 0;
 	margin: 0;
+	
 }
 
 /* navigation bar*/
@@ -45,6 +49,7 @@ nav li ul{
 	position: absolute;
 	display: none;
 	width: inherit;
+	
 }
 nav a{
 	text-decoration: none;
@@ -59,7 +64,7 @@ nav a:hover{
 nav a:focus{
 	background-color: #005f5f;
 }
-/* need to fix through js coding. Inactive in current design*/
+
 nav a.active{
 	background-color: #aaa;
     color: #444;
@@ -124,4 +129,5 @@ nav li ul li {
 	width:60%;
 	padding: 3% , 10px;
 	font-size: large;
+	font-family: Didot, serif;
 }

@@ -11,17 +11,17 @@ header {
 	font-family: sans-serif ;
 	text-align: center;
 	text-transform: capitalize;
-
+	font-size: medium;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 }
 
 header h1{
 	background-color: ;
 	color: rgb(0, 0, 0);
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 }
 
-header h2{
-	font-size: medium;
-}
+
 
 
 nav ul{
