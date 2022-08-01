@@ -1,18 +1,36 @@
 <!-- Navigation bar html for the data science website-->
 
-<nav>
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="project-list.html">Projects</a>
-			<ul>
-				<li><a href="F1-project.html">F1 project</a></li>
-				<li><a href="machine-learning-algo.html">machine learning algorithms</a></li>	
+<nav class = 'navbar navbar-expand-lg navbar-scroll shadow 0' style = "background-color :#243239 ;">
+	<div class = "container">
+		<a class = "navbar-brand" href = "index.html">HKW Data Science</a>
+		
+		  <div class="collapse navbar-collapse" id="navbarExample01">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="project-list.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Projects
+				  </a>
+
+
+				  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="F1-project.html">Exploratory analysis of F1 data set</a>
+					<a class="dropdown-item" href="machine-learning-algo.html">Machine Learing Algorithms</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Future Projects</a>
+				  </div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link px-3" href="about-me.html">About Me</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link px-3" href="resources.html">Helpful Resources</a>
+			  </li>
 			</ul>
-		</li>
-		<li><a href="about-me.html">about me</a>
-		</li>	
-		<li><a href="resources.html">resources</a>
-		</li>
-	</ul>			
+		  </div>
+
+
+
+	</div>
+	
 </nav>
 

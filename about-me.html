@@ -5,43 +5,59 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>hkwdatascience</title>
 	<link rel="stylesheet" type="text/css" href="css/styling.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
-	<header> 
-		<h1> HKW data science</h1>
-		<div>where I started</div>
-		<script id="replace_with_navbar" src="js\nav.js"></script>
-	</header>
+	<!--Nav bar stored in nav.html-->
+	<script id="replace_with_navbar" src="js\nav.js"></script>
 
-	<article class = "personal-info">
-		<h1>A little about myself</h1>
+	<div class = "container">
+		<div class = "row">
 
-		<div>
-			<p>
-				&emsp;My name is Hongkai Wang, but you can also call me Bruce. I am an aspiring data scientist currently 
-			pursuing a master degree in the field. My undergraduate majors were originally in Biochemistry and 
-			Mathematics. My interests in data analystics were inspired by a bioinformatic project that I undertook 
-			during a summer internship. This experience brought me into the world of computer science and data science, 
-			and I was captivated every since.
-			</p>
+			<div class = "col-lg-4" id = 'social'>
+				<h2>links to socials</h2>
+				<div><a href="https://www.linkedin.com/in/hongkai-wang-120737200/"> <i class="fa fa-linkedin-square fa-4x"></i></a></div> 
+				<div><a href="https://github.com/hkwdatascience/hkwdatascience.github.io"><i class="fa fa-github-square fa-4x" aria-hidden="true"></i>
+				</a></div>
+				<div><a href="mailto:hongkaiwang524@gmail.com"><i class="fa fa-google fa-4x" aria-hidden="true"></i></a></div>
+			</div>
+			
+			<article class = "col-lg-8 justify-content-center">
+				<h1  id = "project-title">A little about myself</h1>
+		
+				<div>
+					<p>
+						&emsp;My name is Hongkai Wang, but you can also call me Bruce. I am an aspiring data scientist currently 
+					pursuing a master degree in the field. My undergraduate majors were originally in Biochemistry and 
+					Mathematics. My interests in data analystics were inspired by a bioinformatic project that I undertook 
+					during a summer internship. This experience brought me into the world of computer science and data science, 
+					and I was captivated every since.
+					</p>
+		
+					<p>
+						&emsp;Currently, I am looking to gain experience in the field and create interesting intepretation of 
+						existing data sets. You can find personal passion projects and miscellaneous coding practices posted on
+						this website. 
+					</p>
+				</div>
 
-			<p>
-				&emsp;Currently, I am looking to gain experience in the field and create interesting intepretation of 
-				existing data sets. You can find personal passion projects and miscellaneous coding practices posted on
-				this website. 
-			</p>
+			
+			</article>
 		</div>
-		<h2>links to socials</h2>
-		<div> linkedin </div>
-		<div> github</div>
-		<div> other github account</div>
-
-	</article>
+	</div>
+	
+	
 	<footer>
 		
 
 
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

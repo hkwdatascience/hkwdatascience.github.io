@@ -1,0 +1,24 @@
+{
+  "name": "hkwdatascience.github.io",
+  "version": "1.0.0",
+  "description": "This project maintains the website for my portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkwdatascience/hkwdatascience.github.io.git"
+  },
+  "author": "Bruce Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkwdatascience/hkwdatascience.github.io/issues"
+  },
+  "homepage": "https://github.com/hkwdatascience/hkwdatascience.github.io#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

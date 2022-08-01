@@ -1,133 +1,88 @@
 /* index page css. Currently just named as styling*/
 body{
 	background: rgb(255, 255, 255);
-	margin: 1%;
+
 	
-}
-
-
-header {
-	height: 15%;
-	text-align: center;
-	text-transform: capitalize;
-	font-size: medium;
-	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
-}
-
-header h1{
-	background-color: ;
-	color: rgb(0, 0, 0);
-	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
-}
-
-header h2{
-	font-size: medium;
-	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
-}
-
-
-nav ul{
-	list-style: none;
-	background-color: rgb(121 170 220);
-	text-align: center;
-
 }
 
 /* main navigation blocks styling */
-nav li{
-	width: 20%;
-	line-height: 50px;
-	display: inline-block;
-	text-transform: capitalize;
-	padding: 0;
-	margin: 0;
-	
-}
 
-/* navigation bar*/
-nav li ul{
-	position: absolute;
-	display: none;
-	width: inherit;
-	
-}
-nav a{
+.navbar-brand {
+    letter-spacing: 3px;
+    color: #e2696b;
+  }
+  
+  .navbar-brand:hover {
+      color: #4f43ef;
+  }
+  
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars { 
+    color: #fff;
+	height: 100%
+  }
+
+  .navbar-scrolled {
+    background-color: #ffede7;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+nav li{
 	text-decoration: none;
   	color: #fff;
   	display: block;
  	transition: .5s background-color;
 }
+nav li:hover{
+	background-color: #4f43ef;
+ }
 
-nav a:hover{
-	background-color: #005f5f;
-}
-nav a:focus{
-	background-color: #005f5f;
-}
-
-nav a.active{
-	background-color: #aaa;
-    color: #444;
-    cursor: default;
-}
-nav li li{
-	font-size: .8em;
-}
-nav > ul > li{
-	text-align: center;
+nav li:focus{
+	background-color: #4f43ef;
 }
 
-
-
-/*sub menu drop down funtion*/
-nav li ul{
-	position: absolute;
-	display: none;
-	padding: 0;
-}
-
-nav li:hover ul{
-	display: block;
-
-}
-
-
-nav li ul li {
-	display: block;
-	width: 100%;
-	text-align: center;
-	padding: 0;
-	margin: 0;
-}
 
 /*main section styling*/
 
 /*the left and right blockinsg of the body section of the page*/
 
-.left{
-	display: inline-block;
-	width: 25%;
-	height: 100vh;
-	margin: 0 2%;
-	vertical-align: top;
-	font-size: large;
+
+
+#leftColumn{
+	margin-top: 2%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-.left h1{
-	text-align: left;
-	font-family: 
+#rightColumn{
+	margin-top : 2%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.left li{
-	text-align: left;
-	font-family: 'Times New Roman', Times, serif;
-}
+
+
+/*resourse styling assets */
+
+
+/*project styling assets */
+
 
 .right{
-	display: inline-block;
-	width:60%;
-	padding: 3% , 10px;
-	font-size: large;
-	font-family: Didot, serif;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+#project-title{
+    margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#social{
+	margin-top: 1%;
+	margin-bottom: 1%;
 }
